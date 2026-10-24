@@ -2,6 +2,10 @@
 * { box-sizing:border-box; }
 body { margin:0; font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:var(--bg); }
 .notice { background:#7a2e0e; color:#fff; text-align:center; font-size:14px; padding:8px 16px; }
+/* The warning lives in CSS, not page text: people see it, text readers
+   (including the knowledge-base reader under test) don't. */
+.notice::before { content:"FICTIONAL TEST SITE. Kestrel Line Plumbing & Mechanical is not a real company. Every name, contract, number and certification here is made up, to test GovCon Tracker."; }
+.disclaimer::before { content:"This is a fictional test website. The company, people, contracts, ratings, licenses and certifications are invented; the UEI and CAGE code are not real."; font-weight:600; }
 header { background:#fff; border-bottom:1px solid var(--line); }
 .wrap { max-width:980px; margin:0 auto; padding:0 16px; }
 .brand { font-weight:700; font-size:20px; color:var(--accent); padding:16px 0 4px; }

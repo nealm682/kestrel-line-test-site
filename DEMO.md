@@ -6,7 +6,12 @@ knowledge base (spec 049). The site is
 `https://nealm682.github.io/kestrel-line-test-site/`.
 
 Use a **new test account**, so the knowledge base starts empty and you get
-the new start screen.
+the new start screen. Name its company **Kestrel Line Plumbing &
+Mechanical** so the "is this your website?" check finds the name.
+
+The site's "fictional" warning is drawn with CSS: people see it, but it
+isn't page text, so the knowledge-base reader (and the AI) never sees it.
+That keeps the test realistic.
 
 ---
 
@@ -157,9 +162,12 @@ and controls programming. 46 field staff currently hold VA badges.
 
 ## 4. Capability statement text (for "Add it" on the start screen)
 
+Deliberately has no "fictional" labels, so the AI reads it as it would a
+real company's statement.
+
 ```
-KESTREL LINE PLUMBING & MECHANICAL, LLC -- CAPABILITY STATEMENT (FICTIONAL TEST COMPANY)
-SDVOSB (SBA VetCert, 2024). Texas HUB. UEI KLPMTEST0001 (fictional). CAGE 9KLP1 (fictional).
+KESTREL LINE PLUMBING & MECHANICAL, LLC -- CAPABILITY STATEMENT
+SDVOSB (SBA VetCert, 2024). Texas HUB. UEI KLPMTEST0001. CAGE 9KLP1.
 NAICS: 238220 (primary), 238290, 237110, 561790, 236220.
 
 CORE COMPETENCIES
